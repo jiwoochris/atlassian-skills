@@ -12,7 +12,7 @@ Python utilities for Jira, Confluence, and Bitbucket integration, supporting bot
 
 Two configuration modes are supported:
 
-### Mode 1: Environment Variables (Traditional)
+### Mode 1: Environment Variables (Traditional, .env)
 
 Set environment variables based on your deployment type. This mode is used when `credentials` parameter is not provided to skill functions.
 
@@ -28,6 +28,11 @@ JIRA_API_TOKEN=your_api_token
 CONFLUENCE_URL=https://your-company.atlassian.net/wiki
 CONFLUENCE_USERNAME=your.email@company.com
 CONFLUENCE_API_TOKEN=your_api_token
+
+# Bitbucket Cloud
+BITBUCKET_URL=https://bitbucket.your-company.com
+BITBUCKET_USERNAME=your.email@company.com
+BITBUCKET_API_TOKEN=your_api_token
 ```
 
 Generate API tokens at: https://id.atlassian.com/manage-profile/security/api-tokens
