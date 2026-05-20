@@ -18,6 +18,8 @@ Set environment variables based on your deployment type. This mode is used when 
 
 #### Cloud (API Token)
 
+Note: This skill targets the Bitbucket Server/Data Center REST API (/rest/api/1.0/...) and will not work against Bitbucket Cloud. If the user is on Bitbucket Cloud, call the Bitbucket Cloud REST API (https://api.bitbucket.org/2.0/...) directly instead.
+
 ```bash
 # Jira Cloud
 JIRA_URL=https://your-company.atlassian.net
